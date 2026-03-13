@@ -29,7 +29,11 @@ Self-RAG addresses these issues by introducing **evaluation and correction stage
 This results in **more accurate and reliable responses**.
 
 ---
+## Project Architecture
 
+![Project Architecture](Images/Architecture.png)
+
+---
 # Self-RAG Workflow
 
 The system follows a structured reasoning pipeline where the model decides whether to retrieve information, evaluates the relevance of retrieved documents, generates responses based on context, and performs self-evaluation to ensure factual correctness.
